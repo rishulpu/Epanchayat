@@ -20,10 +20,11 @@ public class Controller {
 		return ResponseEntity.ok("Ok");
 	}
 	
-	@PostMapping("/reg")
+	@PostMapping("/registration")
 	public ResponseEntity<String> regist(@RequestParam String ss){
 		return ResponseEntity.ok("Ok");
 	}
+	
 	
 	
 
