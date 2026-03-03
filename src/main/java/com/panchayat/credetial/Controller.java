@@ -20,7 +20,7 @@ public class Controller {
 		return ResponseEntity.ok("Ok");
 	}
 	
-	@PostMapping("/registr")
+	@PostMapping("/register")
 	public ResponseEntity<String> regist(@RequestParam String ss){
 		return ResponseEntity.ok("Ok");
 	}
