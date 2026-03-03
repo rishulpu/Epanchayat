@@ -13,7 +13,7 @@
 	<artifactId>Epanchayat</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Epanchayat</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Egrampanchayat</description>
 	<url />
 	<licenses>
 		<license />
@@ -46,6 +46,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
 
 	<build>
 		<plugins>
