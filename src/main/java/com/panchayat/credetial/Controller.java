@@ -3,6 +3,7 @@ package com.panchayat.credetial;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestParam;
 //import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -16,6 +17,11 @@ public class Controller {
 	public ResponseEntity<String> login(@RequestBody LoginDTO login) {
 		System.out.println(login.getMobile());
 		System.out.println(login.getPassword());
+		return ResponseEntity.ok("Ok");
+	}
+	
+	@PostMapping("/reg")
+	public ResponseEntity<String> regist(@RequestParam String ss){
 		return ResponseEntity.ok("Ok");
 	}
 	
